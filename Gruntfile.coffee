@@ -116,9 +116,7 @@ module.exports = (grunt) ->
         options:
           map: true,
           processors: [
-            require('autoprefixer')({
-              browsers: ['last 2 versions']
-            })
+            require('autoprefixer')
           ]
 
         src: 'style.css'
@@ -127,9 +125,7 @@ module.exports = (grunt) ->
         options:
           map: false,
           processors: [
-            require('autoprefixer')({
-              browsers: ['last 6 versions']
-            })
+            require('autoprefixer')
           ]
 
         src: 'style.css'

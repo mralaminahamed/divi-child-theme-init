@@ -10,7 +10,7 @@
     "sass-dist": "grunt sass-dist",
     "less-build": "grunt sass-build",
     "less-dev": "grunt less-dev",
-    "less-dist": "grunt less-dist",
+    "less-dist": "grunt less-dist"
   },
   "repository": {
     "type": "git",
